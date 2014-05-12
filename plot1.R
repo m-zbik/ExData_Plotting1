@@ -15,7 +15,7 @@ with(faithful, hist(goodData$Global_active_power,
                     col = "red", 
                     main = "Global Active Power", 
                     xlab="Global Active Power (kilowatts)", cex.lab = 0.75,
-                    cey.lab = 0.75, xlim = c(0, 6),
+                     xlim = c(0, 6),
                     ylim = c(0, 1200))) 
 
 # save as png
